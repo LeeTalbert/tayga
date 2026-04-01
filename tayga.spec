@@ -15,7 +15,7 @@ BuildRequires:	make
 BuildRequires:  coreutils
 BuildRequires:  pkgconfig(libnl-3.0)
 
-Requires:  python-pyroute2
+Requires:  python%{pyver}dist(pyroute2)
 Requires:  iproute2
 
 %description
